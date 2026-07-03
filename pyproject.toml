@@ -1,0 +1,20 @@
+[project]
+name = "python-selenium-autotests"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "allure-pytest>=2.16.0",
+    "faker>=40.23.0",
+    "pytest>=9.1.0",
+    "pytest-rerunfailures>=16.3",
+    "pytest-xdist>=3.8.0",
+    "selenium>=4.45.0",
+]
+
+[dependency-groups]
+dev = [
+    "black>=26.5.1",
+]
+
+[tool.black]
+line-length = 88
