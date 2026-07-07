@@ -12,7 +12,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 class BasePage:
     def __init__(self, browser):
         self.BROWSER = browser
-        self.BASE_URL = "https://selenium1py.pythonanywhere.com/"
+        self.BASE_URL = "https://selenium1py.pythonanywhere.com"
         self.WAIT = WebDriverWait(self.BROWSER, timeout=5)
         self.EC = ec
 
@@ -21,7 +21,7 @@ class BasePage:
 
         self.USER_ICON_LOCATOR = ("css selector", ".icon-user")
 
-        self.PRODUCTS_CATALOGUE_URL = "https://selenium1py.pythonanywhere.com/catalogue"
+        self.PRODUCTS_CATALOGUE_URL = f"{self.BASE_URL}/catalogue"
 
     def open(self, url):
         self.BROWSER.get(url)

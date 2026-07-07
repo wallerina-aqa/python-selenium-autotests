@@ -9,7 +9,7 @@ faker = Faker()
 class LoginPage(BasePage):
     def __init__(self, browser):
         super().__init__(browser)
-        self.URL_ENDPOINT = "accounts/login/"
+        self.URL_ENDPOINT = "/accounts/login/"
         self.URL = self.BASE_URL + self.URL_ENDPOINT
 
         self.LOGIN_FORM_LOCATOR = ("css selector", "#login_form")
