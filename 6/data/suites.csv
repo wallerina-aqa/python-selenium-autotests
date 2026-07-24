@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","7197","Empty basket opened from Main page has no products","tests","2026-07-03","passed","2026-07-03","TestMainPage","test_main_page","",""
+"","1673","Guest should see login link on Main page","tests","2026-07-03","passed","2026-07-03","TestMainPage","test_main_page","",""
+"","2177","Guest can go to Login page from Main page","tests","2026-07-03","passed","2026-07-03","TestMainPage","test_main_page","",""
